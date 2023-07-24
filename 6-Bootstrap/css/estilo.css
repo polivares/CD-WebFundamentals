@@ -1,0 +1,37 @@
+.navbar ul {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  background-color: darkgray;
+  font-size: 0;
+}
+
+.news {
+  display: inline-block;
+  width: calc(100% / 3);
+}
+
+.news * {
+  font-size: 16px;
+}
+.news img {
+  width: 100%;
+}
+
+.texto {
+  outline: 1px solid green;
+  overflow: auto;
+  font-size: 16px;
+  height: 10em;
+}
+
+footer * {
+  display: inline-block;
+  text-align: left;
+}
+
+#noticia{
+  background-color: pink;
+}
