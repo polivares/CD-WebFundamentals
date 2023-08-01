@@ -9,14 +9,24 @@
       /* Diferentes tipos de display. Prueba descomentar cada uno de ellos para
       verificar su funcionamiento!*/
       p {
-        /* display: inline;        */
+        /* in-line, literalmente quiere decir "en-línea",
+         es decir, en una única línea o en la misma línea*/
+        /* display: inline;*/
+        /* block lo que hace es definir tu elemento html como un "bloque"
+        (puedes pensar en ello como los bloques de tetris).*/
         /* display: block; */
+        /* Inline-block es un intermedio entre inline y block. Produce
+        que tu elemento html utilice el espacio mínimo necesario para que
+        se muestre*/
         /* display: inline-block; */
         vertical-align: top;
-
+        /* Dimensiones del párrafo*/
         width: 400px;
         height: 100px;
-        overflow: auto;
+        /* overflow genera un scroll bar en caso 
+           que el texto supere el 
+           tamaño de la caja de texto*/
+        overflow: auto; 
       }
       div{
         display:flex;
@@ -25,7 +35,7 @@
   </head>
   <body>
     <h1>Block-Inline</h1>
-    <div>
+    <div> <!--Este div representa el contenedor de los párrafos-->
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
         turpis ligula, fermentum eget tempor ac, fermentum at eros. Etiam eu
