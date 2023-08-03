@@ -20,7 +20,7 @@ var z = x + y // Creamos la variable z y le asginamos el resultado de x+y. z=7.
 // Tipos de datos básicos
 var a1 = 2 // Tipo numérico
 var a2 = "Hola mundo!" // Tipo string (cadena de caracteres)
-var a3 = false // Tipo booleano (verdadero o falso)
+var a3 = false // Tipo booleano (verdadero o falso, true o false en js)
 // Los tipos de datos de cada variable se determinan en tiempo de ejecución.
 var a4 = NaN
 var a5 = 'Este es otro texto almacenado en una nueva variable'
@@ -35,7 +35,8 @@ function suma(a,b){
   return a+b
 }
 
-suma(5,10) // En esta llamada, a vale 5 y b vale 10
+// Acá llamaremos a la función suma()
+suma(5,10) // En esta llamada, a vale 5 y b vale 10, acá la variable a8 vale 15
 
 console.log("Valor suma:", suma(x,y)) // En esta llamada a=x=2 y b=y=5
 
