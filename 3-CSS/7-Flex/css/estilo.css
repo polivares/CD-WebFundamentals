@@ -12,7 +12,6 @@ div#container{
 }
 
 div.cajas{
-    display: block;
     width: 300px;
     height: 300px;
     outline: 2px solid green;
